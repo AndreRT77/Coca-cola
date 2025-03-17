@@ -6,46 +6,49 @@
 body{
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background:linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    background: rgb(0,0,0);
+    background: linear-gradient( rgba(0,0,0,1) 36%, rgba(44,130,80,1) 77%, rgba(1,221,21,1) 100%);
 }
 header, footer {
     height: 100px;
-    color: #FFFFFF;
-    display: flex;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: auto 1fr 20fr;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     padding: 0 20px;
 
 }
-main{
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
 header {
-    height: 100px;
-    display: flex;
-    align-items: center;
+    grid-column: 1 / -1 ;
     gap: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-left: 75px;
-    justify-content: flex-start;
+    justify-content: start;
 }
 
 header span {
     font-weight: 600;
 }
 a{
-    color: white;
+    color: greenyellow;
     font-size: larger;
 }
+main{
+    display: grid;
+    grid-template-rows: 100% 1fr 100%;
+    justify-content: center;
+    place-items: center;
+} 
+
 
 .background-logo{
     position: absolute;
-    width:100%;
+    width:80%;
     max-height: 100%;
     margin: auto;
     top: 0;
@@ -55,6 +58,16 @@ a{
     z-index: -1;
 }
 
+.background-relampago{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    max-height: 100%;
+    max-width: 100%;
+}
 .content-text{
     position: absolute;
     color: #FFFFFF;
@@ -64,17 +77,21 @@ a{
     text-align: end;
 }
 .content-image {
-    height: 85vh;
+    height: 80vh;
+    margin-top: -50%;
+    margin-bottom: -25%;
+    max-width: 110%;
+    max-height: 100%;
 }
 
 footer{
-    height: 100px;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 75px;
+    place-items: center;
     padding-right: 75px;
-    color:#FFFFFF;
+    padding-left: 75px;
+    color: #FFFFFF;
     font-weight: 100;
 }
 footer div{
@@ -92,7 +109,7 @@ footer div{
         text-align: center;
     }
     .content-image{
-        height: 70vh;
+        height: 60vh;
     }
     footer {
         padding: 0px 25px;
