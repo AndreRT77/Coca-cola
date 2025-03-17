@@ -1,7 +1,7 @@
 # Coca-cola
 
 ![](./Coca%20cola.png)
-Uma galeria utilizando o método Flex
+Primeiro website criado, do tipo landing page, para treino no desensolvimento de sites. O site foi desenvolvido utilizando boas práticas, como por exemplo tags semânticas e responsividade.
 ## Tecnologias
 *HTML
 *CSS
