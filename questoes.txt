@@ -1,0 +1,36 @@
+1-O que é um repositório no Git e qual a sua importância?
+R: Um repostório serve como um lugar na nuvem para você armazenar seus códigos de maneira segura, assim você podendo acessar em qualquer dispositvo que você esteja, além de funcionar como um backup e versionamento
+2-Qual a função do Git Bash?
+R: O git bash tem como função  usar o git através de uma linha de comando no windows, emulando o shell bash.
+3-O que faz o comando git add e qual a diferença entre git add <arquivo> e git add .?
+R:O git add adiciona os arquivos para o próximo commit, o git add <arquivo> faz com que você adicione apenas um arquivo especifíco, o git add. adiciona todos os arquivos que estão presentes na pasta.
+4-Por que utilizamos o ponto (.) no comando git add .?
+R:O (.) serve para dizer que você quer adicionar todos os arquivos da pasta atual.
+5-Explique o comando git commit e por que é importante criar uma mensagem descritiva.
+R: O git commit serve para você versionar seu código, assim sendo muito útil caso necessite ver uma versão anterior que esteja funcional
+6-Qual a função do comando git push?
+R:O git push serve para você "upar" os arquivos que você commitou para o repositório 
+7-Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+R: Para o versionamento do seu código, assim podendo utiliza-lá quando seu código atual esteja com algum problema e você necessite utilizar a versão que ainda esteja funcional
+8-Explique a função das tags HTML e como elas estruturam uma página.
+R: O html tem funções como o  head e header que servem como o cabecário, body como o corpo e todas as outras tags ficam dentro dela, o main funciona como a parte principal ou meio da página, footer serve como o rodapé.
+9-O que são atributos em uma tag HTML e qual a sua função?
+R: São "palavras especiais" que controlam o coportamento os determinados elementos. Suas funções são desde identificar um elemento, informar qual o arquvio a tag deve utilizar e etc.
+10-O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+R: É um comando que facilita e agiliza a escrita do código,  pois já cria uma estrutura básica de html
+11-O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+R: Ele é utilizado para alterar o padrão do box model, o que é utilizado para calcular o widths e heights dos elementos
+12-Por que é importante utilizar tags semânticas no HTML?
+R: Ele facilita a leitura da estrutura da página, é muito útil para caso outros programadores necessitem alterar o código
+13-O que são media queries no CSS e qual a sua função?
+R: Ele ajusta a apresentação da página para diferentes dispositivos sem alterar ou modificar seu conteúdo
+14-Qual a função do GitHub Pages?
+R: A funçção do git pages é criar dominios no github para manter a página no ar
+15-O que é o Flexbox no CSS e para que ele é utilizado?
+R: É um elemento que organiza os elementos de uma página html dentro de seus containers
+16-Qual a diferença entre justify-content e align-items em um container Flexbox?
+R: O "justify-content" alinha os elementos do containaer na horizontal (eixo x), já o "align-items"alinha na vertical (eixo y)
+17-Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+R: O flex-grow controla a forma como os elementos flexiveis se expandem para preencher o espaço vazio, logo seu propósito é a criação de layouts flexiveis
+18-Explique a diferença entre flex-direction: column; e flex-direction: row;.
+R: O "flex-direction" organiza os itens em linhas, já o "flex-column"organiza os itens em coluna.
