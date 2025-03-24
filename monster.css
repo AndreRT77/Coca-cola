@@ -7,6 +7,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
+    overflow: hidden;
     grid-template-rows: 100px 1fr 50px;
     background: rgb(0,0,0);
     background: linear-gradient( rgba(0,0,0,1) 36%, rgba(44,130,80,1) 77%, rgba(1,221,21,1) 100%);
@@ -58,16 +59,6 @@ main{
     z-index: -1;
 }
 
-.background-relampago{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -2;
-    max-height: 100%;
-    max-width: 100%;
-}
 .content-text{
     position: absolute;
     color: #FFFFFF;
@@ -85,6 +76,7 @@ main{
 }
 
 footer{
+    height: 50px;
     display: grid;
     grid-template-columns: auto 1fr auto;
     justify-content: space-between;
